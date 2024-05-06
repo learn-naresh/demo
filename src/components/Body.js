@@ -1,9 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Header from './Header'
+import Footer from './Footer'
 
 const Body = () => {
-  return (
-    <Navbar/>
+  return (<>
+    <Header/>
+
+    <h1>Naresh Verma</h1>
+    <Footer/>
+    </>
   )
 }
 
